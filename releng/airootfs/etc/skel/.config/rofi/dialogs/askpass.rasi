@@ -1,0 +1,22 @@
+* {
+    background-color:       #091A28;
+    text-color:             #8CA0AA;
+	font:				 	"Terminus 12";
+}
+
+window {
+    width:      			250px;
+    padding:    			20px;
+    border:					0px;
+    border-radius:          0px;
+    border-color:           @282c33;
+    location:               center;
+    x-offset:               0;
+    y-offset:               -8%;
+}
+
+entry {
+    expand: 				true;
+    width: 					150px;
+    text-color:				@8CA0AA;
+}

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Install MuhArch
+Comment=MuhArch Installer (abif)
+Exec=/usr/local/bin/apps_as_root.sh "termite -e /abif-master/abif"
+Type=Application
+Categories=System;Settings;
