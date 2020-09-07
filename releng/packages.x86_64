@@ -138,6 +138,7 @@ firefox
 geany
 gcc
 feh
+dmenu
 fakeroot
 binutils
 gtk-engine-murrine

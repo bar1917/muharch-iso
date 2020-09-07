@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run
+	dmenu_run -fn 'Terminus-12'
 	
 F2
 	rofi -show drun -show-icons -font 'Terminus 12' -theme $HOME/.config/rofi/sunset.rasi

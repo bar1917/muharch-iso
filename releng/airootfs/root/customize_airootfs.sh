@@ -26,6 +26,9 @@ systemctl enable lightdm.service
 sed -i -e 's/MODULES=()/MODULES=(i915? amdgpu? radeon? nouveau? vboxvideo? vmwgfx?)/g' /etc/mkinitcpio.conf
 sed -i 's/HOOKS.*/HOOKS=(base udev modconf block filesystems keyboard fsck)/g' /etc/mkinitcpio.conf
 
+# St
+(cd /etc/skel/st && sudo make clean install)
+
 ## Disto Info
 cat > /etc/os-release <<EOL
 NAME="MuhArch"
